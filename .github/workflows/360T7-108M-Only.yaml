@@ -38,8 +38,8 @@ env:
   # You can modify the REPO_NAME to any name you want, but remember not to let it have the same name in other workflows.
   # REPO 表示您要在此工作流程中构建的 OpenWrt 存储库。 你可以将REPO_NAME修改为任何你想要的名字，但切记不要让其与其他工作流重名 
   REPO_NAME: immortalwrt-mt798x-for-360T7-108M
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x.git
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/KeyueMiao/immortalwrt-mt798x.git
+  REPO_BRANCH: 9.9
   BUILD_DEPENDS:  "ack antlr3 aria2 asciidoc autoconf automake autopoint binutils bison build-essential bzip2 \
                    ccache clang cmake cpio curl device-tree-compiler fastjar file flex gawk gettext gcc-multilib \
                    g++ g++-multilib git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libglib2.0-dev \
